@@ -1,0 +1,46 @@
+{
+  "name": "Sean Tsai",
+  "intro": "Software Engineer",
+  "avatarSrc": "/avatar.png",
+  "skills": ["Javascript", "React", "Node.js", "PostgreSQL", "Python"],
+  "about": "I’m a software engineer specialising in web development, with a focus on building intuitive user interfaces and writing maintainable, scalable code. Currently, I’m a software engineer at Huaguan, where I’m responsible for building and maintaining our internal customer analysis system. My role involves everything from initial system design to selecting the tech stack, focusing on accelerating development and reducing long-term maintenance costs. \nOutside of work, you can usually find me on the tennis court or keeping an eye on the latest stock market trends.",
+  "social": {
+    "linkedin": "https://www.linkedin.com/in/hsueh-ya-tsai/",
+    "github": "https://github.com/aleetsaiya"
+  },
+  "experience": [
+    {
+      "from": "OCT 2025",
+      "to": "PRESENT",
+      "position": "Software Engineer",
+      "company": "Huaguan",
+      "intro": "Designed and implemented an internal management platform to visualize various customer data and financial metrics, helping the sales team make more informed decisions. Accelerated the development cycle by strategically selecting a low-code ecosystem and maintaining a data architecture that supports future migration to a custom-coded solution.",
+      "skills": ["Javascript", "React", "Supabase", "PostgreSQL", "Appsheet", "BigQuery"]
+    },
+    {
+      "from": "JUL 2021",
+      "to": "AUG 2021",
+      "position": "Web Frontend Engineering Intern",
+      "company": "Yahoo",
+      "intro": "Maintained reusable React components for the Yahoo Taiwan news ecosystem, focusing on code reliability and UI consistency.",
+      "skills": ["Javascript", "React", "Node.js", "Express"],
+      "link": "https://tw.news.yahoo.com/"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Portfolio Website",
+      "imgSrc": "/portfolio-website.png",
+      "intro": "A portfolio website with clean, minimalist design.",
+      "skills": ["Next.js", "SCSS"],
+      "link": ""
+    },
+    {
+      "title": "Presentation Platform",
+      "imgSrc": "/presentation-app.png",
+      "intro": "A lightweight presentation app that allows users to create, edit, and preview slideshow decks with rich content including text, images, videos, and syntax-highlighted code blocks.",
+      "skills": ["React", "Typescript", "Material UI", "REST API"],
+      "link": "https://github.com/aleetsaiya/presto"
+    }
+  ]
+}

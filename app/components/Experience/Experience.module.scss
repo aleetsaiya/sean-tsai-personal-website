@@ -1,0 +1,76 @@
+.container {
+  width: 100%;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.entry {
+  margin-top: 0.75rem;
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+.date {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.35rem;
+  min-width: 150px;
+  flex-shrink: 0;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--secondary-color);
+  white-space: nowrap;
+  padding-top: 0.1rem;
+}
+
+.dateSeparator {
+  color: var(--secondary-color);
+  opacity: 0.8;
+}
+
+.details {
+  flex: 1;
+
+  .position {
+    font-weight: 500;
+    color: var(--fg-color);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+  }
+
+  .arrow {
+    font-size: 0.85rem;
+    flex-shrink: 0;
+  }
+
+  .intro {
+    margin-top: 0.25rem;
+    color: var(--secondary-color);
+    font-size: 0.9rem;
+  }
+
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .entry {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .date {
+    min-width: unset;
+  }
+}

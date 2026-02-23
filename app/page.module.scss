@@ -1,0 +1,82 @@
+.container {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 5rem 1.5rem 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+section.info {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1.5rem;
+
+  .avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .infoContent {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+
+    .name {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .position {
+      color: var(--secondary-color);
+      font-size: 0.95rem;
+    }
+
+    .social {
+      display: flex;
+      align-items: center;
+      margin-top: 0.25rem;
+      gap: 1rem;
+
+      a {
+        display: inline-flex;
+        color: var(--fg-color);
+        opacity: 0.7;
+
+        &:hover {
+          opacity: 1;
+          transform: translateY(-1px);
+          text-decoration: none;
+        }
+      }
+
+      .linkedin {
+        color: #0a66c2;
+      }
+    }
+  }
+}
+
+section.about {
+  .aboutContent {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  p {
+    color: var(--secondary-color);
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 2rem 1.25rem 3rem;
+  }
+}
