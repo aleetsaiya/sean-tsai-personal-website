@@ -4,7 +4,7 @@ import { Roboto } from "next/font/google";
 
 export const metadata: Metadata = {
   title: "Sean Tsai",
-  description: "Portfolio website of Sean Tsai",
+  description: "Personal website of Sean Tsai",
 };
 
 const roboto = Roboto({

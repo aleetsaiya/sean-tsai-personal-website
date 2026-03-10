@@ -37,7 +37,11 @@ export default function Projects() {
                   <h4>{e.title}</h4>
                 </span>
               )}
-              <p className={styles.intro}>{e.intro}</p>
+              {e.intro.split('\n').map((text, i) => (
+                <p key={i} className={styles.intro}>
+                  {text}
+                </p>
+              ))}
               <div className={styles.skillsWrapper}>
                 {e.skills.map((sk, i) => (
                   <Badge key={i}>{sk}</Badge>
