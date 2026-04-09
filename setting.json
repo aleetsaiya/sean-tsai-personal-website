@@ -2,35 +2,38 @@
   "name": "Sean Tsai",
   "intro": "Software Engineer",
   "avatarSrc": "/avatar.png",
-  "skills": ["Javascript", "React", "Node.js", "PostgreSQL", "Python"],
-  "about": "Hi I'm Sean. I’m a software engineer specialising in web development, with a focus on building intuitive user interfaces and writing maintainable, scalable code. Outside of programming, you can usually find me on the tennis court or keeping an eye on the latest stock market trends.",
+  "skills": ["JavaScript", "TypeScript", "React", "Node.js", "PostgreSQL", "Python"],
+  "about": "Hi I’m Sean. I’m a software engineer specialising in web development, with a focus on building intuitive user interfaces and writing maintainable, scalable code. Outside of programming, you can usually find me on the tennis court or keeping an eye on the latest stock market trends.",
   "social": {
     "linkedin": "https://www.linkedin.com/in/hsueh-ya-tsai/",
     "github": "https://github.com/aleetsaiya"
   },
   "experience": [
     {
-      "from": "JUL 2021",
-      "to": "AUG 2021",
+      "from": "OCT 2025",
+      "to": "PRESENT",
+      "position": "Software Engineer",
+      "company": "Huaguan International Co. Ltd.",
+      "intro": "Sole developer building full-stack sales analytics tools for a seafood importer. Built dashboards tracking 100+ products and 150+ customers, automated data pipelines syncing from Google Sheets every 5 minutes, and integrated LINE Messaging API with OpenAI for automated order parsing. Designed a layered data workflow using BigQuery for scalable BI reporting through Looker Studio.",
+      "skills": ["React", "TypeScript", "Supabase", "BigQuery", "LookerStudio"]
+    },
+    {
+      "from": "JUL 2022",
+      "to": "AUG 2022",
       "position": "Web Frontend Engineering Intern",
       "company": "Yahoo",
-      "intro": "Maintained reusable React components for the Yahoo Taiwan news ecosystem, focusing on code reliability and UI consistency.",
-      "skills": ["Javascript", "React", "Node.js", "Express"],
+      "intro": "Contributed to Yahoo News production frontend, resolving tickets across UI components, Express middleware, and cloud resource configurations serving millions of daily users.",
+      "skills": ["JavaScript", "React", "Node.js", "Express"],
       "link": "https://tw.news.yahoo.com/"
     }
   ],
   "projects": [
     {
-      "title": "Cross-Platform Sales Application & Analysis Dashboard",
-      "imgSrc": "/appsheet.webp",
-      "intro": "A custom cross-platform application for a seafood importer company to manage customer orders, and used the data as analysis sources for an analysis dashboard to categorise different customer types, find products with high growth potential, and pointed out low ROI customers. The system used a layered data workflow which separating application, operational, and analytics layers, archiving historical data to the warehouse to maintain application performance and enable scalable BI reporting.",
-      "skills": ["AppSheet", "Google Sheets", "LookerStudio", "SQL", "BigQuery"]
-    },
-    {
-      "title": "Business Analysis Dashboard",
-      "imgSrc": "/supabase.webp",
-      "intro": "An internal management dashboard for a seafood importer company to visualise financial performance metrics and improve analysis efficiency. Created an order parsing workflow by connecting with LINE Messaging API and used OpenAI API to parse messages to a structured JSON format.",
-      "skills": ["React", "Redux", "Material UI", "PostgreSQL", "Supabase", "Vercel"]
+      "title": "Presentation Website",
+      "imgSrc": "/react.webp",
+      "intro": "A responsive presentation website that allows users to create, edit, and preview slideshow decks with rich content, including text, images, and syntax-highlighted code blocks.",
+      "skills": ["React", "TypeScript", "Material UI", "Vercel"],
+      "link": "https://github.com/aleetsaiya/presto"
     },
     {
       "title": "Personal Website",
@@ -38,13 +41,6 @@
       "intro": "A clean, minimalist personal portfolio website.",
       "skills": ["Next.js", "SCSS", "Vercel"],
       "link": "https://github.com/aleetsaiya/sean-tsai-personal-website"
-    },
-    {
-      "title": "Presentation Website",
-      "imgSrc": "/react.webp",
-      "intro": "A responsive presentation website that allows users to create, edit, and preview slideshow decks with rich content, including text, images, and syntax-highlighted code blocks.",
-      "skills": ["React", "Typescript", "Material UI", "Vercel"],
-      "link": "https://github.com/aleetsaiya/presto"
     }
   ]
 }
